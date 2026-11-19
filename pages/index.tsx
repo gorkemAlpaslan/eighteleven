@@ -38,6 +38,15 @@ export default function Home() {
             </a>
           </div>
         </div>
+        <footer className="credit-footer">
+          <a
+            href="https://www.gorkemalpaslan.com.tr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Developed by Görkem Alpaslan
+          </a>
+        </footer>
       </div>
       <div className="mobile-view">
         <div className="buttons-wrapper">
@@ -59,6 +68,15 @@ export default function Home() {
               </button>
             </a>
           </div>
+          <footer className="credit-footer">
+            <a
+              href="https://www.gorkemalpaslan.com.tr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Developed by Görkem Alpaslan
+            </a>
+          </footer>
         </div>
         <Image
           src={background}
